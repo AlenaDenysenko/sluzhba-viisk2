@@ -1,0 +1,85 @@
+/* Footer.module.css */
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.footerBoxLogo {
+    margin-bottom: 20px;
+}
+
+.logoWebFooter {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.logoStudioFooter {
+    color: #007BFF;
+}
+
+.textFooter {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.socialFooterDiv {
+    margin: 20px 0;
+}
+
+.socialFooterText {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.socialFooter {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialIconHrefFooter {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.socialIconHrefFooter:hover {
+    color: #007BFF;
+}
+
+.formFooterDiv {
+    margin-top: 30px;
+}
+
+.formFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputFooter {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.formFooterButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formFooterButton:hover {
+    background-color: #0056b3;
+}

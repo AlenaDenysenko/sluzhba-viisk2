@@ -1,0 +1,65 @@
+/* Header.module.css */
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divBox {
+    display: flex;
+    align-items: center;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+}
+
+.logoWeb {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    margin-right: 10px;
+}
+
+.listHeader {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.navigation:hover {
+    color: #000;
+}
+
+.address {
+    margin-left: 20px;
+}
+
+.listContacts {
+    list-style: none;
+}
+
+.addressContacts {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.addressContacts:hover {
+    color: #000;
+}
