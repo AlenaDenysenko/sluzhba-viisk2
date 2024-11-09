@@ -1,12 +1,19 @@
 import Header from './components/Header/Header';
-import MainContent from './components/MainContent/MainContent';
+import Hero from './components/Hero/Hero'
+import Military from './components/Military/Military';
+import News from './components/News/News';
 import Footer from './components/Footer/Footer';
+
+
+
 
 function App() {
   return (
     <>
       <Header />
-      <MainContent />
+      <Hero />
+      <Military />
+      <News/>
       <Footer />
     </>
   );
