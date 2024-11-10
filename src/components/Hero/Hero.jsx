@@ -7,7 +7,7 @@ function Hero() {
       <div className="container text-center">
         <h1 className={`display-4 ${styles.heroHeading}`}>Ласкаво просимо на інформаційний портал</h1>
         <p className={`lead ${styles.heroSubtext}`}>Оберіть шлях до нових знань та новин</p>
-        <button className="btn btn-primary mt-3">Дізнатися більше</button>
+        <button className={`btn btn-primary mt-3 ${styles.button}`}>Дізнатися більше</button>
       </div>
     </div>
   );
