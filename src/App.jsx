@@ -1,3 +1,4 @@
+import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Military from './components/Military/Military';
@@ -8,21 +9,25 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={
-          <>
-            <Header />
-            <Hero />
-            <Military />
-            <News />
-            <Footer />
-          </>
-        } />
-        <Route path="/contacts" element={<ContactsPage />} />
-      </Routes>
-    </Router>
+    <div className="container" >
+      <Router>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Header />
+              <Hero />
+              <Military />
+              <News />
+              <Footer />
+            </>
+          } />
+          <Route path="/contacts" element={<ContactsPage />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
+
 export default App;
+

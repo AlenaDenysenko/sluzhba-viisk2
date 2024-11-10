@@ -6,6 +6,7 @@ function Header() {
   return (
     <header className={`d-flex justify-content-between align-items-center ${styles.header} py-3 px-4`}>
       <Link to="/" className={`${styles.logoWeb} text-decoration-none`}>
+        <img className="logo-image" src="/public/images/zsu-logo.png" width="30" height="30" alt="Служба Військ Логотип" ></img>
         Служба <span className={styles.logoStudio}>Військ</span>
       </Link>
       <nav className={`${styles.headerNav} d-flex`}>
