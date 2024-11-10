@@ -9,6 +9,13 @@ function Header() {
         <img className="logo-image" src="/public/images/zsu-logo.png" width="30" height="30" alt="Служба Військ Логотип" ></img>
         Служба <span className={styles.logoStudio}>Військ</span>
       </Link>
+
+      <button className="menu-btn" type="button" aria-label="Open menu button">
+          <svg className="menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu-btn"></use>
+          </svg>
+      </button>
+      
       <nav className={`${styles.headerNav} d-flex`}>
         <ul className="list-unstyled d-flex gap-4 mb-0">
           <li><a href="#about" className={`nav-link ${styles.navigation}`}>Про сайт</a></li>

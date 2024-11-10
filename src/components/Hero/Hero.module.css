@@ -1,39 +1,50 @@
+/* Hero styles */
 .heroBackground {
     padding: 72px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/ukr-13-3.jpg');
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: auto;
+    max-width: 1440px;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.heroHeading {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
 }
 
 @media only screen and (min-width: 768px) {
-    .heroBackground {
-        padding: 112px 0;
+    .heroHeading {
+        font-size: 56px;
+        line-height: 1.07;
     }
 }
 
 @media only screen and (min-width: 1158px) {
-    .heroBackground {
-        padding: 188px 0;
+    .heroHeading {
+        margin-bottom: 48px;
     }
 }
 
 .button {
-    color: #ffffff;
     background-color: #47523f;
-    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    display: block;
-    min-width: 169px;
-    height: 56px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -1,85 +1,111 @@
-/* Footer.module.css */
+/* Footer component styles */
 .footer {
-    background-color: #f8f8f8;
-    padding: 40px;
-    text-align: center;
-    color: #333;
+    background-color: #2e2f42;
+    padding: 96px 0;
+    color: #f4f4fd;
 }
 
 .footerBoxLogo {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logoWebFooter {
-    font-size: 24px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    margin-bottom: 16px;
 }
 
 .logoStudioFooter {
-    color: #007BFF;
+    color: #f4f4fd;
 }
 
 .textFooter {
-    margin: 10px 0;
     font-size: 16px;
-    color: #555;
-}
-
-.socialFooterDiv {
-    margin: 20px 0;
+    line-height: 1.5;
+    color: #f4f4fd;
 }
 
 .socialFooterText {
-    margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f4f4fd;
+    margin-bottom: 16px;
 }
 
 .socialFooter {
-    list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 15px;
+    gap: 16px;
+}
+
+.iconsSocialFooter {
+    fill: #f4f4fd;
 }
 
 .socialIconHrefFooter {
-    color: #333;
-    transition: color 0.3s;
+    width: 40px;
+    height: 40px;
+    background-color: #47523f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms;
 }
 
-.socialIconHrefFooter:hover {
-    color: #007BFF;
+.socialIconHrefFooter:hover,
+.socialIconHrefFooter:focus {
+    background-color: #708b5d;
 }
 
-.formFooterDiv {
-    margin-top: 30px;
+.subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f4f4fd;
 }
 
 .formFooter {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 24px;
 }
 
 .inputFooter {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid #f4f4fd;
+    background-color: transparent;
+    color: #f4f4fd;
+    padding-left: 16px;
+    border-radius: 4px;
+}
+
+.inputFooter::placeholder {
+    color: #f4f4fd;
 }
 
 .formFooterButton {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
+    min-width: 165px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #4d5ae5;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms;
 }
 
-.formFooterButton:hover {
-    background-color: #0056b3;
+.formFooterButton:hover,
+.formFooterButton:focus {
+    background-color: #708b5d;
+}
+
+.iconFormFooter {
+    margin-left: 16px;
+    fill: #f4f4fd;
 }

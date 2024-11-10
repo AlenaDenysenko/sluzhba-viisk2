@@ -1,83 +1,80 @@
-/* Глобальні стилі */
 body {
-  display: block;
   font-family: 'Roboto', sans-serif;
-  color: #2b2f71;
+  color: #434455;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-}
-
-/* Вирівнювання зображень та елементів */
-img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
-/* Очищення відступів для заголовків та параграфів */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
 p {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
-/* Список без відступів */
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
+ul {
+  list-style: none;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-/* Приховані елементи */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  white-space: nowrap;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Адаптивність контейнера */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (max-width: 767px) {
-  .container {
-    max-width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-
-
-/* Декорування кнопок */
-.button {
-  background-color: #47523f;
-  color: #ffffff;
+button {
+  cursor: pointer;
   border: none;
   border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
-.button:hover {
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-dark {
+  background-color: #2e2f42;
+}
+
+.bg-light {
+  background-color: #f4f4fd;
+}
+
+.btn-primary {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
   background-color: #708b5d;
 }
